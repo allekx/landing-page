@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Serif:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Serif:ital@0;1&family=Italiana&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex; /* Adicionado para centralizar o header no body */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: #f5f5f5; /* Cor de fundo para melhor contraste */
+}
+
+header {
+  background-image: url(/img/massage\ moça.jpg);
+  background-size: cover; /* Faz a imagem cobrir o header */
+  background-position: center; /* Centraliza a imagem no header */
+  height: 879px;
+  width: 1799px;
+  margin: auto; /* Centraliza horizontalmente */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Apenas para destacar */
+  display: flex; /* Para alinhar os conteúdos dentro */
+  flex-direction: column; /* Organiza os itens verticalmente */
+  justify-content: center; /* Centraliza verticalmente os itens internos */
+  align-items: center; /* Centraliza horizontalmente os itens internos */
+  color: #fff; /* Texto em branco para contraste */
+  text-align: center; /* Centraliza o texto */
+  border-radius: 8px; /* Canto levemente arredondado */
+}
+header p {
+ font-family: "Instrument Serif", serif;
+ height: 84px;
+ width: 472px;
+ font-size: 20px;
+
+}
+
+header h1 {
+  font-family: "Italiana", sans-serif;
+  font-size: 48px;
+
+}
+
+header button {
+  margin-top: 4rem;
+  padding: 12px 24px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Fonte em negrito */
+  color: #000; /* Cor do texto */
+  background-color: #fff; /* Cor do fundo */
+  border: none; /* Remove bordas */
+  border-radius: 8px; /* Bordas arredondadas */
+  cursor: pointer; /* Mostra o ícone de "mão" ao passar o mouse */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+  transition: all 0.3s ease; /* Animação suave para mudanças */
+}
+
+header button:hover {
+  background-color: #fff; /* Cor de fundo mais escura no hover */
+  transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+}
+
+header button:active {
+  transform: scale(0.98); /* Dá o efeito de "pressionado" */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra reduzida */
+}
+
+.secao1 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  
+}
+.secao1 p {
+  font-family: "Instrument Serif", serif;
+  font-size: 24px;
+  height: 75px;
+  width: 198px;
+  text-align: center;
+}
+
+.secao1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secao2 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.secao2 div {
+  height: 682px;
+  width: 588px;
+  display: flex ;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.secao2 div h2 {
+  font-size: 32px;
+  text-align: center;
+  height: 131px;
+  width: 588px;
+}
+
+.secao2 div p {
+  font-size: 24px;
+}
+.secao3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secao3 div {
+  width: 857px;
+  height: 691px;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.secao3 div h2 {
+  color: #fff;
+  font-family: "Italiana", sans-serif;
+  padding: 28px;
+}
+
+.secao3 div p {
+  color: #fff;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 25%;
+}
