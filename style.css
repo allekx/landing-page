@@ -9,6 +9,7 @@
 
 body {
   display: flex; /* Adicionado para centralizar o header no body */
+  flex-direction: column;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   background-color: #f5f5f5; /* Cor de fundo para melhor contraste */
@@ -146,4 +147,51 @@ header button:active {
   font-size: 24px;
   text-align: center;
   margin-top: 25%;
+}
+
+
+footer {
+  margin-top: 5rem;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
 }
